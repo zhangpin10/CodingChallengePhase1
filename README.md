@@ -3,7 +3,7 @@
 ## Demo.py
 ### main demo file. It demos the procedures of data parser pipeline and data loader pipeline. 
 
-- 1. User can just run Demo.py.
+- 1. User can just run Demo.py (only need to provide the data_path).
 
 - 2. The parsed dicom data and contour masks will be save into a data.h5 file after executing the code.
 
