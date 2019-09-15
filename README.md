@@ -1,6 +1,7 @@
 # Code and Demo Instruction
 
-## Demo.py: main demo file. It demos the procedures of data parser pipeline and data loader pipeline. 
+## Demo.py: 
+##### main demo file. It demos the procedures of data parser pipeline and data loader pipeline. 
 
 - 1. User can just run Demo.py.
 
