@@ -18,12 +18,15 @@
      Two examples are shown below:
 
 <p align="center">
-  <img src=https://github.com/zhangpin10/CodingChallengePhase1/blob/master/visual_results/parser_SCD0000101-59.png width="430" title="parser_SCD0000101-59.png">
-  <img src=https://github.com/zhangpin10/CodingChallengePhase1/blob/master/visual_results/loader_SCD0000101-59.png width="430" alt="loader_SCD0000101-59.png">
+  <img src=https://github.com/zhangpin10/CodingChallengePhase1/blob/master/visual_results/parser_SCD0000201-100.png width="550" title="parser_SCD0000201-100.png">
 </p>
 
-                   parser_SCD0000101-59.png                                  loader_SCD0000101-59.png
-
+                                                 parser_SCD0000201-100.png                                  
+<p align="center">
+  <img src=https://github.com/zhangpin10/CodingChallengePhase1/blob/master/visual_results/loader_SCD0000201-100.png width="550" alt="loader_SCD0000201-100.png">
+</p>
+ 
+                                                 loader_SCD0000201-100.png
 
 
 ## run_unit_test.py
