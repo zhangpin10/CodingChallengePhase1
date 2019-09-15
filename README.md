@@ -14,3 +14,5 @@
      A parser verification image is an overlapping image of dicom data, mask and contour. Its name starting with prefix “parser_”. Two examples are shown below: 
 
      A loader verification image is an overlapping image of dicom data and a mask since we only load image and mask during the loading procedure. The image name starts with prefix “loader_”. Two examples are shown below:
+
+![parser_SCD0000101-59.png]()
