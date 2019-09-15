@@ -62,7 +62,7 @@
     
 #### 2. What changes did you make to the code, if any, in order to integrate it into our production code base? 
  
-   Change 1：In _parse_dicom_file(), I found the dicom files may not have rescaleIntercept and rescaleSlope attribute. I double checked using their dicom tag [0x0028, 0x1052] and [0x0028, 0x1053]. I still did not find the attributes. Therefore, I changed the code to try to read these tags first. If it fails, I set slope as 1 and intercept as 0 which means there is no change to the image data.
+   Change 1：In _parse_dicom_file(), I found the dicom files may not have rescaleIntercept and rescaleSlope attribute. I double checked using their dicom tag [0x0028, 0x1052] and [0x0028, 0x1053]. I still did not find the attributes. Therefore, I changed the code to combine the two "try...except..." into one. If rescaleIntercept = 0 and rescaleSlope has value, we still should update image data. If no attributes found, I set slope as 1 and intercept as 0 which means there is no change to the image data.
 
    Change 2: In _parse_contour_file(), I added "try ... except..." since some of the contour files failed the reading procedure. "None" will return if the reading fails
 
