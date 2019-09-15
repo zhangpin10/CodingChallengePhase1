@@ -1,1 +1,0 @@
-This folder will contain parsing results for each sample in .npz format and saving results for all samples with .h5 format
