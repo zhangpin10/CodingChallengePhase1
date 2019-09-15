@@ -18,11 +18,11 @@
      Two examples are shown below:
 
 <p align="center">
-  <img src=https://github.com/zhangpin10/CodingChallengePhase1/blob/master/visual_results/parser_SCD0000101-59.png width="400" title="parser_SCD0000101-59.png">
-  <img src=https://github.com/zhangpin10/CodingChallengePhase1/blob/master/visual_results/loader_SCD0000101-59.png width="400" alt="loader_SCD0000101-59.png">
+  <img src=https://github.com/zhangpin10/CodingChallengePhase1/blob/master/visual_results/parser_SCD0000101-59.png width="430" title="parser_SCD0000101-59.png">
+  <img src=https://github.com/zhangpin10/CodingChallengePhase1/blob/master/visual_results/loader_SCD0000101-59.png width="430" alt="loader_SCD0000101-59.png">
 </p>
 
-                     parser_SCD0000101-59.png                                loader_SCD0000101-59.png
+                   parser_SCD0000101-59.png                                  loader_SCD0000101-59.png
 
 
 
@@ -41,6 +41,9 @@
 #### Data_parser.py contains the class DataParser for dicom and contour parsing.
 #### Data_loader.py contains the class BatchIterator for batch generating.
 #### Verification_plotter.py contains the class OverlappingPlot for verification image generation.
+
+
+
 
 
 # Questions and Answers
