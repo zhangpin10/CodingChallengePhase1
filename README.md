@@ -15,4 +15,4 @@
 
      A loader verification image is an overlapping image of dicom data and a mask since we only load image and mask during the loading procedure. The image name starts with prefix “loader_”. Two examples are shown below:
 
-![parser_SCD0000101-59.png]()
+![parser_SCD0000101-59.png](https://github.com/zhangpin10/CodingChallengePhase1/blob/master/visual_results/loader_SCD0000101-59.png)
