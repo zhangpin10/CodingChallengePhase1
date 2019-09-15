@@ -15,7 +15,7 @@ if __name__ == '__main__':
     # set verify to draw verification image which is 
     # the overlap of dicom image, contour and mask
     data_parser.verify = 1   
-    #data_parser.parse()
+    data_parser.parse()
 
 
     """ demo for data loader pipeline """
